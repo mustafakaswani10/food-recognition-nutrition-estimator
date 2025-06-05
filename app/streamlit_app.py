@@ -32,7 +32,7 @@ IMG_SIZE = 224
 def load_model():
     model = models.resnet18(pretrained=False)
     num_ftrs = model.fc.in_features
-    model.fc = torch.nn.Linear(num_ftrs, len(FOOD_CLASSES))
+    model.fc = torch.nn.Linear(num_ftrs, len(food_classes))
     model.load_state_dict(torch.load("model.pth", map_location="cpu"))
     model.eval()
     return model
@@ -78,7 +78,7 @@ if uploaded_file is not None:
     with torch.no_grad():
         output = model(input_img)
         pred_idx = torch.argmax(output, 1).item()
-        pred_class = FOOD_CLASSES[pred_idx]
+        pred_class = food_classes[pred_idx]
 
     st.markdown(f"### Prediction: **{pred_class.replace('_',' ').title()}**")
     nutrition = lookup_nutrition(pred_class)
