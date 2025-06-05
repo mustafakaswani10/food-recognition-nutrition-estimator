@@ -21,6 +21,10 @@ AI-powered food image recognition (Food-101, PyTorch) with instant nutrition loo
 
 ## 🗂️ Repository Structure
 food-recognition-nutrition-estimator/
+
+<pre>
+```
+food-recognition-nutrition-estimator/
 ├── app/
 │   ├── streamlit_app.py
 │   ├── model.pth
@@ -32,6 +36,8 @@ food-recognition-nutrition-estimator/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+</pre>
 
 ---
 
@@ -94,7 +100,7 @@ Please cite this repo if you use it in research or a portfolio.
 ## 🙋‍♂️ Contact
 
 [Mustafa Kaswani](mailto:mustafa.hkaswani@gmail.com)  
-[LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/mustafahussainkaswani/))
+[LinkedIn](https://www.linkedin.com/in/mustafahussainkaswani/)
 
 ---
 
