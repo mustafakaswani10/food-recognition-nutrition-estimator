@@ -33,7 +33,7 @@ def load_model():
     model = models.resnet18(pretrained=False)
     num_ftrs = model.fc.in_features
     model.fc = torch.nn.Linear(num_ftrs, len(food_classes))
-    model.load_state_dict(torch.load("model.pth", map_location="cpu"))
+    model.load_state_dict(torch.load("app/model.pth", map_location="cpu"))
     model.eval()
     return model
 
