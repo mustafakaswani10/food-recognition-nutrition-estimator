@@ -1,0 +1,7 @@
+data/food-101/
+*.tar.gz
+*.pth
+*.ipynb_checkpoints
+__pycache__/
+.DS_Store
+venv/
