@@ -7,7 +7,9 @@ AI-powered food image recognition (Food-101, PyTorch) with instant nutrition loo
 
 ## 🟢 Try the App Online
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app-name.streamlit.app/](https://food-estimator.streamlit.app/))
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://food-estimator.streamlit.app/)
+
+Or click here: https://food-estimator.streamlit.app/
 
 (![Screenshot 2025-06-05 at 7 29 09 PM](https://github.com/user-attachments/assets/59010c08-bed5-4401-8378-04b136fddd34)
 )
