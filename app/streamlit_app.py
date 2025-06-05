@@ -23,7 +23,8 @@ food_classes = [
     "spaghetti_bolognese", "spaghetti_carbonara", "spring_rolls", "steak", "strawberry_shortcake", "sushi",
     "tacos", "takoyaki", "tiramisu", "tuna_tartare", "waffles"
 ]
-NUTRITION_DF = pd.read_csv("../data/nutrition_lookup.csv")
+import os
+NUTRITION_DF = pd.read_csv(os.path.join(os.path.dirname(__file__), '..', 'data', 'nutrition_lookup.csv'))
 IMG_SIZE = 224
 
 # --- Load model ---
